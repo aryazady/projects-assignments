@@ -1,0 +1,49 @@
+
+[2023-01-04 13:24:42] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2023-01-04 13:24:42] Checking for Bowtie
+		  Bowtie version:	 2.4.5.0
+[2023-01-04 13:24:42] Checking for Bowtie index files (genome)..
+[2023-01-04 13:24:42] Checking for reference FASTA file
+	Warning: Could not find FASTA file ./bowtie_index/GRCh37/GRCh37.fa
+[2023-01-04 13:24:42] Reconstituting reference FASTA file from Bowtie index
+  Executing: /content/bowtie/bowtie2-2.4.5-linux-x86_64/bowtie2-inspect ./bowtie_index/GRCh37/GRCh37 > ./tophat_out/tmp/GRCh37.fa
+[2023-01-04 13:27:10] Generating SAM header for ./bowtie_index/GRCh37/GRCh37
+[2023-01-04 13:27:29] Preparing reads
+	 left reads: min. length=36, max. length=150, 2097963 kept reads (731 discarded)
+	right reads: min. length=36, max. length=150, 2097026 kept reads (1668 discarded)
+[2023-01-04 13:28:07] Mapping left_kept_reads to genome GRCh37 with Bowtie2 
+[2023-01-04 13:31:43] Mapping left_kept_reads_seg1 to genome GRCh37 with Bowtie2 (1/6)
+[2023-01-04 13:33:17] Mapping left_kept_reads_seg2 to genome GRCh37 with Bowtie2 (2/6)
+[2023-01-04 13:33:35] Mapping left_kept_reads_seg3 to genome GRCh37 with Bowtie2 (3/6)
+[2023-01-04 13:33:43] Mapping left_kept_reads_seg4 to genome GRCh37 with Bowtie2 (4/6)
+[2023-01-04 13:33:48] Mapping left_kept_reads_seg5 to genome GRCh37 with Bowtie2 (5/6)
+[2023-01-04 13:33:52] Mapping left_kept_reads_seg6 to genome GRCh37 with Bowtie2 (6/6)
+[2023-01-04 13:33:57] Mapping right_kept_reads to genome GRCh37 with Bowtie2 
+[2023-01-04 13:40:24] Mapping right_kept_reads_seg1 to genome GRCh37 with Bowtie2 (1/6)
+[2023-01-04 13:47:20] Mapping right_kept_reads_seg2 to genome GRCh37 with Bowtie2 (2/6)
+[2023-01-04 13:51:05] Mapping right_kept_reads_seg3 to genome GRCh37 with Bowtie2 (3/6)
+[2023-01-04 13:53:30] Mapping right_kept_reads_seg4 to genome GRCh37 with Bowtie2 (4/6)
+[2023-01-04 13:57:21] Mapping right_kept_reads_seg5 to genome GRCh37 with Bowtie2 (5/6)
+[2023-01-04 13:57:49] Mapping right_kept_reads_seg6 to genome GRCh37 with Bowtie2 (6/6)
+[2023-01-04 13:57:54] Searching for junctions via segment mapping
+[2023-01-04 14:00:32] Retrieving sequences for splices
+[2023-01-04 14:01:58] Indexing splices
+[2023-01-04 14:01:59] Mapping left_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/6)
+[2023-01-04 14:02:06] Mapping left_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/6)
+[2023-01-04 14:02:07] Mapping left_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/6)
+[2023-01-04 14:02:07] Mapping left_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/6)
+[2023-01-04 14:02:07] Mapping left_kept_reads_seg5 to genome segment_juncs with Bowtie2 (5/6)
+[2023-01-04 14:02:08] Mapping left_kept_reads_seg6 to genome segment_juncs with Bowtie2 (6/6)
+[2023-01-04 14:02:08] Joining segment hits
+[2023-01-04 14:03:40] Mapping right_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/6)
+[2023-01-04 14:04:19] Mapping right_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/6)
+[2023-01-04 14:04:35] Mapping right_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/6)
+[2023-01-04 14:04:49] Mapping right_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/6)
+[2023-01-04 14:05:04] Mapping right_kept_reads_seg5 to genome segment_juncs with Bowtie2 (5/6)
+[2023-01-04 14:05:05] Mapping right_kept_reads_seg6 to genome segment_juncs with Bowtie2 (6/6)
+[2023-01-04 14:05:05] Joining segment hits
+[2023-01-04 14:06:49] Reporting output tracks
+-----------------------------------------------
+[2023-01-04 14:10:35] A summary of the alignment counts can be found in ./tophat_out/align_summary.txt
+[2023-01-04 14:10:35] Run complete: 00:45:53 elapsed

@@ -1,0 +1,26 @@
+Mode    : Converter
+Options : --input-haps shapeit_output --output-vcf shapeit_output.vcf
+Version : v2.r904
+Date    : 20/12/2022 14:49:55
+
+MODE -convert : CONVERTING/SUBSETTING SHAPEIT HAPLOTYPES
+
+Parameters :
+  * Seed : 1671535195
+  * Parallelisation: 1 threads
+  * Ref allele is NOT aligned on the reference genome
+
+Reading sample list in [shapeit_output.sample]
+  * 810 individuals included
+
+Reading site list and haplotypes in [shapeit_output.haps]
+  * 200 sites included
+
+Mapping sites and samples of the haplotype set
+  * 200 sites found
+  * 0 sites not found
+  * 1620 founder haplotypes
+
+Writing haplotypes in [shapeit_output.vcf] in VCF format
+
+Running time: 0 seconds

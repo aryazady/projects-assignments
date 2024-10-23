@@ -1,0 +1,14 @@
+
+
+TrimmomaticPE: Started with arguments:
+ /content/sratofastq/SRR12303145_1.fastq.gz /content/sratofastq/SRR12303145_2.fastq.gz /content/TrimmedFq/SRR12303145_1_paired.fastq.gz /content/TrimmedFq/SRR12303145_1_unpaired.fastq.gz /content/TrimmedFq/SRR12303145_2_paired.fastq.gz /content/TrimmedFq/SRR12303145_2_unpaired.fastq.gz ILLUMINACLIP:/content/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 22245302 Both Surviving: 2098694 (9.43%) Forward Only Surviving: 31392 (0.14%) Reverse Only Surviving: 19847198 (89.22%) Dropped: 268018 (1.20%)
+TrimmomaticPE: Completed successfully

@@ -1,0 +1,17 @@
+		15	73	29	4	34	74	8	52	25	14
+		ACONTb	GAPD	CS	PGK	ENO	GLCpts	PGM	EX_glc_	BIOMASS	ACONTa
+ACONTb		Nan	D	F	D	D	D	D	D	U	F
+GAPD		U	Nan	U	F	P	D	P	D	U	U
+CS		F	D	Nan	D	D	D	D	D	U	F
+PGK		U	F	U	Nan	P	D	P	D	U	U
+ENO		U	P	U	P	Nan	D	F	D	U	U
+GLCpts		U	U	U	U	U	Nan	U	F	U	U
+PGM		U	P	U	P	F	D	Nan	D	U	U
+EX_glc_		U	U	U	U	U	F	U	Nan	U	U
+BIOMASS		D	D	D	D	D	D	D	D	Nan	D
+ACONTa		F	D	F	D	D	D	D	D	U	Nan
+
+U stands for Uncoupled
+D stands for Directionally (Row --> Column)
+P stands for Partially
+F stands for Fully
