@@ -1,3 +1,3 @@
-# Projects
+# Projects and Coding Experience
 
-My assignments and projects are here
+Here, you can find all my academic projects and coding experience.
